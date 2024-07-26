@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Review</title>
+  <link rel="stylesheet" href="book.css">
+</head>
+<body>
+  <header>
+    <h1>Book Review Site</h1>
+    <nav>
+      <ul>
+        <li><a href="book.html">Home</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Genres</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="signin.html">Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h2>Book Title</h2>
+      <img src="book1.webp" alt="Book Image" height="100px" width="200px">
+      <p>Full content of the book review...</p>
+      <p>Rating: ★★★★☆</p>
+    </article>
+    <section id="comments">
+      <h3>Comments</h3>
+      <form id="comment-form">
+        <textarea placeholder="Add a comment" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="comment-list">
+        <!-- Comments will appear here -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Book Review Site</p>
+  </footer>
+  <script src="review.js"></script>
+</body>
+</html>
